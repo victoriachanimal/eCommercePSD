@@ -641,9 +641,14 @@ section {
 }
 
 .box3 h5 {
-	margin-bottom: 25px;
+	margin-top: 70px;
+	margin-bottom: 5px;
 	color: white;
-	padding-top: 25px;
+}
+
+.box3 h4 {
+	width: 180px;
+	margin: 0 auto;
 }
 /*END OF GALLERY ROW 1 STYLES*/
 
@@ -780,6 +785,10 @@ section {
 		right: -32.5px;
 	}
 
+	.box3 h5 {
+		margin-top: 110px;
+	}
+
 	.box4 .box-caption {
 		padding: 35px 60px;
 	}
@@ -842,6 +851,10 @@ section {
 		padding-top: 0;
 	}
 
+	.box3 h5 {
+		margin-top: 70px;
+	}
+
 	.box1 h6::before, 
 	.box5 h6::before {
 		right: 0;
@@ -890,7 +903,16 @@ section {
 	}
 
 	.gallery h5 {
-		font-size: 0.7rem;
+		font-size: 0.5rem;
+		margin-bottom: 8px;
+	}
+
+	.gallery h4 {
+		font-size: calc(1.87rem - 1.2rem);
+	}
+
+	.gallery .box3 h5 {
+		margin-top: 20px;
 	}
 
 	.box4 h5,
@@ -1138,6 +1160,17 @@ figure .select-item {
 		margin-left: 10px;
 	}
 }
+
+@media (max-width: 340px) {
+	.box4 .box-caption {
+		padding: 0px;
+	}
+
+	.gallery .box3 h4 {
+		width: 100%;
+	}
+}
+
 /*END OF RESPONSIVE -NEW ITEMS SECTION*/
 /*END OF NEW ITEMS SECTION*/
 
@@ -1502,6 +1535,14 @@ section h3::after {
 @media (max-width: 550px) {
 	.service {
 		display: none;
+	}
+
+	.box3 h5 {
+		margin-top: 40px;
+	}
+
+	.box3 h4 {
+		width: 100px;
 	}
 }
 /*END OF RESPONSIVE - OUR SERVICE SECTION STYLES*/
