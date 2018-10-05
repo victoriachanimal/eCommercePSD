@@ -436,7 +436,7 @@ nav .sub-menu {
 	}
 
 	.header-row2 .main-logo {
-		margin-left: 0;
+		margin-left: 35px;
 	}
 
 	.menu {
@@ -1687,7 +1687,7 @@ section h3::after {
 }
 /* end of info section row 2 styles */
 
-/*REPONSIVE - INFO SECTION STYLES*/
+/*RESPONSIVE - INFO SECTION STYLES*/
 /*Portrait tablet / small desktops*/
 @media (max-width: 1050px) {
 	.info-row1 {
@@ -1759,6 +1759,13 @@ section h3::after {
 	.info-row2 .nav-column2,
 	.info-row2 .nav-column3 {
 		display: none;
+	}
+}
+
+@media (max-width: 384px) {
+	.info-row1 #email {
+		width: 200px;
+		margin: 10px 0 0 0;
 	}
 }
 /*END OF RESPONSIVE - INFO SECTION STYLES
